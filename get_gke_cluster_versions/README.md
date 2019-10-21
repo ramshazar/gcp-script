@@ -15,7 +15,8 @@ Use the asset inventory of GCP [Cloud Security Command Center](https://cloud.goo
 
 ## Example
 
-```./get_gke_cluster_versions.sh 31337
+```
+./get_gke_cluster_versions.sh 31337
 {
   "Cluster": "https://container.googleapis.com/v1/projects/my-first-project/locations/europe-west1/clusters/kubernetes",
   "MasterVersion": "1.12.9-gke.15",
