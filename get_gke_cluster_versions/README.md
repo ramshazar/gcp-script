@@ -5,10 +5,9 @@ Use the asset inventory of GCP [Cloud Security Command Center](https://cloud.goo
 # Usage
 
 ## Requirements
-
-1.) Have gcloud installed and configured
-2.) Have jq installed
-3.) You need to have access to your GCP Cloud Security Command Center
+1. Have gcloud installed and configured
+2. Have jq installed
+3. You need to have access to your GCP Cloud Security Command Center
 
 ## CLI
 
