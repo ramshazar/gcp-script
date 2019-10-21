@@ -11,12 +11,22 @@ Use the asset inventory of GCP [Cloud Security Command Center](https://cloud.goo
 
 ## CLI
 
-./get_gke_cluster_versions.sh <YOUR_ORG_ID>
+```
+$ ./get_gke_cluster_versions.sh <YOUR_ORG_ID>
+```
 
 ## Example
 
+### Get you organization ID
 ```
-./get_gke_cluster_versions.sh 31337
+$ gcloud organizations list:
+DISPLAY_NAME                ID  DIRECTORY_CUSTOMER_ID
+secret-org-name.org  31337	chaiZish9noh
+```
+
+### Call script with organization ID
+```
+$ ./get_gke_cluster_versions.sh 31337
 {
   "Cluster": "https://container.googleapis.com/v1/projects/my-first-project/locations/europe-west1/clusters/kubernetes",
   "MasterVersion": "1.12.9-gke.15",
