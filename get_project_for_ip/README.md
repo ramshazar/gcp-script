@@ -1,6 +1,6 @@
 # get_project_for_ip.sh
 
-Use the asset inventory of GCP [Cloud Security Command Center](https://cloud.google.com/security-command-center/) to find out which of your projets an ip address belongs to 1.3.3.7 
+Use the asset inventory of GCP [Cloud Security Command Center](https://cloud.google.com/security-command-center/) to find out which of your projets an ip address belongs to
 
 # Usage
 
