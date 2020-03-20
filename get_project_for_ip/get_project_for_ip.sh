@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###########
-# This script enables you to find ot in which GCP project an ip address is used
+# This script enables you to find out in which GCP project an ip address is used
 # You need access to your Cloud Security Command Center
 #
 # Run 'gcloud organizations list' to get your ORG_ID
@@ -14,7 +14,7 @@ else
 fi
 
 if [[ -z $2 ]]; then
-  echo "Please provide an ip address."
+  echo "Please also provide an ip address."
   exit 1
 else
   IP=$2
